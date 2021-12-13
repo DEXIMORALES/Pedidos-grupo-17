@@ -13,6 +13,7 @@ export class Pedidos extends Entity {
   @property({
     type: 'string',
     required: true,
+    generated:true,  
   })
   Id_producto: String;
 
